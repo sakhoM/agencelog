@@ -11,6 +11,13 @@ wp-config.php
 # Ne pas envoyer les images lourdes (optionnel, selon tes besoins)
 wp-content/uploads/
 
+# Ne pas envoyer les dossiers de backup WPvivid
+wp-content/wpvividbackups/
+wp-content/wpvivid_staging/
+
+# Ne pas envoyer les secrets de config locale
+wp-content/plugins/ultimate-addons-for-gutenberg/lib/gutenberg-templates/auth.json
+
 # Ne pas envoyer les thèmes et plugins par défaut
 wp-content/themes/twentytwentytwo/
 wp-content/plugins/akismet/

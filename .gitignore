@@ -1,0 +1,16 @@
+# Ne pas envoyer le cœur de WordPress
+wp-admin/
+wp-includes/
+*.php
+!wp-content/
+
+# Ne pas envoyer les configurations personnelles
+wp-config.php
+.htaccess
+
+# Ne pas envoyer les images lourdes (optionnel, selon tes besoins)
+wp-content/uploads/
+
+# Ne pas envoyer les thèmes et plugins par défaut
+wp-content/themes/twentytwentytwo/
+wp-content/plugins/akismet/
